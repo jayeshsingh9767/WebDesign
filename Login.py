@@ -1,0 +1,21 @@
+from tkinter import *
+root=Tk()
+fra=Frame(root)
+l1=Label(fra,text='Username',fg='Blue')
+l1.grid(row=1)
+l2=Label(fra,text='Password',fg='Blue')
+l2.grid(row=2)
+ent1=Entry(fra,bd=5)
+ent1.grid(row=1,column=2)
+ent2=Entry(fra,bd=5)
+ent2.grid(row=2,column=2)
+but1=Button(fra,text="Login",bg='blue',font='Areal')
+but1.grid(row=3,sticky='n')
+but2=Button(fra,text="Cancle",bg='blue',font='Areal')
+but2.grid(row=3,column=2,sticky='n')
+but3=Button(fra,text="Forget Password",bg='red',font='Areal')
+but3.grid(row=4,columnspan=4,sticky='n')
+fra.pack()
+
+
+root.mainloop()
