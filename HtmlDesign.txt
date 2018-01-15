@@ -2,3 +2,12 @@ This is html Design File.
 
 We will Create a Basic HTML page in this File.
 
+
+<html>
+  <head>
+    <title>Add Title</title>
+  </head>
+  <body>
+  </body>
+<html>
+  
