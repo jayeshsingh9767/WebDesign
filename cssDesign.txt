@@ -3,3 +3,7 @@ This is a CSS file.
 Now we are Going to Design Our Web Page with CSS.
 
 So we Will learn CSS.
+
+body{
+  color:blavk;
+}
